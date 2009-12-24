@@ -58,20 +58,6 @@ Functions/Methods
 
 Try to avoid functions over 50 lines. If you find yourself writing a long function, you should probably extract out parts to separate functions.
 
-Use reStructuredText-formatted docstrings to document function purpose, return values, and anything not obvious from the function signature, with each variable on its own line.
-
-    def connectToDB(user, password):
-    	"""
-    	Attempts to connect to the database server
-    	
-    	``user``: username of the database user
-    
-    	``password``: password of the database user
-    
-    	Throws DatabaseConnectionError on error
-    	"""
-    	...
-
 Comments
 --------
 
